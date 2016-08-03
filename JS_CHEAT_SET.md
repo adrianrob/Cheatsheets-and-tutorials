@@ -41,4 +41,8 @@ Array.from({length: 5}, (v, k) => k);
 // [0, 1, 2, 3, 4]
 //pour une suite geometrique il suffit de multiplier k par la raison
 ~~~
+###fill array n-times with X value ###
+~~~javascript
+Array(n).fill(X);  
+~~~
 
