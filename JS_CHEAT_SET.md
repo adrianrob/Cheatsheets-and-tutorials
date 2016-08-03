@@ -1,7 +1,7 @@
 CODINGAME CHEATSET :
 =====================
 
-### hex to bin ###
+### binary to hexa ###
 
 ~~~javascript
 // js
