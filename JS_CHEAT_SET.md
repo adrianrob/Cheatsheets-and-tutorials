@@ -1,4 +1,2 @@
-# codingame-stuff
-
-JAVASCRIPT CHEATSET :
+JAVASCRIPT CHEATSET 
 =====================
