@@ -35,5 +35,10 @@ function isPrime (n){
     return true;
 }
 ~~~
-
+###fill array from 1...n ###
+~~~javascript
+Array.from({length: 5}, (v, k) => k);    
+// [0, 1, 2, 3, 4]
+//pour une suite geometrique il suffit de multiplier k par la raison
+~~~
 
