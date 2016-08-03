@@ -8,6 +8,12 @@ CODINGAME CHEATSET :
 x = 1011
 y = parseInt(x,2).toString(16)
 ~~~
+### hex to char ###
+~~~javascript
+// js
+x = 'F6'
+char = String.fromCharCode( parseInt(x,2).toString(16) )
+~~~
 ### string to binary to string ###
 ~~~javascript
 binary = (str>>>0).toString(2);
