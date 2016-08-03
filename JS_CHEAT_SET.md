@@ -16,8 +16,9 @@ char = String.fromCharCode( parseInt(x,2).toString(16) )
 ~~~
 ### string to binary to string ###
 ~~~javascript
+str = 'yolo';
 binary = (str>>>0).toString(2);
-parseInt(binary, 2).toString();
+strconverted = parseInt(binary, 2).toString();
 ~~~
 ### determine if N is prime ###
 ~~~javascript
