@@ -8,9 +8,10 @@ CODINGAME CHEATSET :
 x = 1011
 y = parseInt(x,2).toString(16)
 ~~~
-### binary to string ###
+### string to binary to string ###
 ~~~
-parseInt(binary, 2);
+binary = (str>>>0).toString(2);
+parseInt(binary, 2).toString();
 ~~~
 
 
