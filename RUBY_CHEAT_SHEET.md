@@ -14,16 +14,12 @@ for number in the_count
   puts "This is count #{number}"
 end
 
-# same as above, but in a more Ruby style
-# this and the next one are the preferred 
-# way Ruby for-loops are written
+# bestrubypractices
 fruits.each do |fruit|
   puts "A fruit of type: #{fruit}"
 end
 
 # also we can go through mixed lists too
-# note this is yet another style, exactly like above
-# but a different syntax (way to write it).
 change.each {|i| puts "I got #{i}" }
 
 # we can also build lists, first start with an empty one
