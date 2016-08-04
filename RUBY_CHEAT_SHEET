@@ -1,0 +1,4 @@
+### check if letter in range ###
+~~~ruby
+("a".."z").cover?("c")
+~~~

@@ -1,4 +1,0 @@
-si la lettre est comprise dans l'intervalle
-~~~ruby
-("a".."z").cover?("c")
-~~~
