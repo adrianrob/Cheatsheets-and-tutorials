@@ -1,6 +1,3 @@
-CODINGAME CHEATSHEET :
-=====================
-
 ### binary to hexa ###
 
 ~~~javascript
