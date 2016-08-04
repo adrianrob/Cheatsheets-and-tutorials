@@ -1,4 +1,4 @@
-CODINGAME CHEATSET :
+CODINGAME CHEATSHEET :
 =====================
 
 ### binary to hexa ###
