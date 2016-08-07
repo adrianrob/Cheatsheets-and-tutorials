@@ -36,4 +36,6 @@ end
 elements.each {|i| puts "Element was: #{i}" }
 
 //bail
+gets.split(" ").map(&:to_i).map(&:chr).join
+//tableau.convertiToI.convertiToCharCode.concatene
 ~~~
