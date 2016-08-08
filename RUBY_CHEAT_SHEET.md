@@ -39,4 +39,7 @@ elements.each {|i| puts "Element was: #{i}" }
 gets.split(" ").map(&:to_i).map(&:chr).join
 //tableau.convertiToI.convertiToCharCode.concatene
 ~~~
-
+### String.indexOf in Ruby ###
+~~~ruby
+"abcdefg".index('c')
+~~~
