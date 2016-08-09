@@ -57,4 +57,25 @@ Array(n).fill(X);
         return factors;
     }
 ~~~
+### get the opposite color , hex given ###
+~~~js 
+var colorHexa = readline();
 
+R = 255- hexToR(colorHexa);
+G = 255 -hexToG(colorHexa);
+B = 255 -hexToB(colorHexa);
+
+print(rgbToHex(R,G,B))
+
+function hexToR(h) {return parseInt((cutHex(h)).substring(0,2),16)}
+function hexToG(h) {return parseInt((cutHex(h)).substring(2,4),16)}
+function hexToB(h) {return parseInt((cutHex(h)).substring(4,6),16)}
+function cutHex(h) {return (h.charAt(0)=="#") ? h.substring(1,7):h}
+function rgbToHex(r, g, b) {
+    return "#" + componentToHex(r) + componentToHex(g) + componentToHex(b);
+}
+function componentToHex(c) {
+    var hex = c.toString(16).toUpperCase();
+    return hex.length == 1 ? "0" + hex : hex;
+}
+~~~
