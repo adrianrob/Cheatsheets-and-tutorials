@@ -43,3 +43,8 @@ gets.split(" ").map(&:to_i).map(&:chr).join
 ~~~ruby
 "abcdefg".index('c')
 ~~~
+### PRINT ODD NUMBERS RUBY SHORTEST CODE ###
+~~~ruby
+puts 1.step(gets.to_i,2).to_a
+~~~
+####
