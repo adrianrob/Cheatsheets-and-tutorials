@@ -29,8 +29,17 @@ ESC + L = AFFICHE LE NUMERO DE LIGNES
 
 ### FUNCTIONS TYPE  ###
 ~~~python
-def mafonction (*args):
-  ...
+def mafonction (\*args):
+ ...
 ~~~ 
+l'operateur * permet d'accepeter plusieurs parametres
+~~~python
+def mafonction (\*\* args):
+ ...
+~~~ 
+l'operateur \*\* permet de passer directement un dictionnaire en parametre
+
+
+
 
 
