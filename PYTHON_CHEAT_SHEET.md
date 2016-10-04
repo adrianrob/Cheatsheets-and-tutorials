@@ -18,7 +18,19 @@
 
 ### dictionaries ###
 // fonctionne comme une structure JSON , systeme de clé valeur
+// check ordered dict to retrive the keys in the same order that the dict have been 
+~~~python 
 
+### JUPYTER TIPS ###
+
+MAJ + TAB  = DOCSTRING 
+MAJ + TAB + TAB  = DOCSTRING PLUS DETAILLEE
+ESC + L = AFFICHE LE NUMERO DE LIGNES
+
+### FUNCTIONS TYPE  ###
 ~~~python
+def mafonction (*args):
+  ...
+~~~ 
 
 
