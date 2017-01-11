@@ -48,13 +48,8 @@ We want to search for instance, all the words that starts with __m__ and ends wi
 
 Well, there is pre-built intervals in regular expressions defined that way :
 
-[a-z]	[abcdefghijklmonpqrstuvwxyz]	Lettres minuscules de a à z
-[A-Z]	[ABCDEFGHIJKLMNOPQRSTUVWXYZ]	Lettres majuscules de A à Z
-[0-9]	[0123456789]	Chiffres de 0 à 9
-[a-z0-9]	[abcdefghijklmonpqrstuvwxyz0123456789]	Lettres minuscules de a à z ou chiffres de 0 à 9
-
-|:---:|:---:|:---:|
-|[a-z]|[abcdefghijklmonpqrstuvwxyz]|min letters from a to z|
-|[A-Z]|[ABCDEFGHIJKLMNOPQRSTUVWXYZ]|maj letters from a to z|
-|[0-9]|[0123456789]|numbers from 0 to 9|
-|[a-z0-9]|[abcdefghijklmonpqrstuvwxyz0123456789]|min letters from a to z and numbers from 0 to 9|
+|----------|----------------------------------------|------------------------------------------------|
+| [a-z]    | [abcdefghijklmonpqrstuvwxyz]           | min letters from a to z                        |
+| [A-Z]    | [ABCDEFGHIJKLMNOPQRSTUVWXYZ]           | maj from  A to Z                               |
+| [0-9]    | [0123456789]                           | Numbers from 0 to 9                            |
+| [a-z0-9] | [abcdefghijklmonpqrstuvwxyz0123456789] | min letters from a to z or numbers from 0 to 9 |
