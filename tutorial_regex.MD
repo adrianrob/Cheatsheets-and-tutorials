@@ -12,7 +12,7 @@ _Bonjour et au revoir ! Je m'appelle John Doe, j'ai 27 ans, j'habite en France e
 
 We want to match the lines starting with Bonjour, and ending with revoir, the regular expression that we will use is :
 
-  * /^Bonjour|revoir$/gm
+  * __/^Bonjour|revoir$/gm____
 
  /gm : g means global text and m means multiple lines__
  ^ : to search X in the start of the line
@@ -32,7 +32,7 @@ We could use this regex
  * mots|mats|mits
 
 But, we can cross this regex, because the three words share the following letters : m,t,s  and we will match the words that have either o OR a OR i between m and ts so it gives us this :
- * /m[oai]ts/gm
+ * __/m[oai]ts/gm__
 
 this regex can be explained that way : search all the words that starts with __m__ and end with __ts__, and between them, match a word that have either the letter __o, or a, or i__
 
@@ -40,7 +40,7 @@ this regex can be explained that way : search all the words that starts with __m
 
 We can use this regex to do the "opposite" of what we want to match this way :
 
-  * /m[^oai]ts/gm
+  * __/m[^oai]ts/gm__
 
 this regex means : search all the words that starts with __m__ and ends with __ts__,  by exluding those which contain either __o,a,i__
 
@@ -50,7 +50,7 @@ this regex means : search all the words that starts with __m__ and ends with __t
 
 We want to search for instance, all the words that starts with __m__ and ends with __ts__ , that contain either __a,b,c... to z__, we'll have to use intervals, this way :
 
-  * /m[a-z]ts/gm
+  * __/m[a-z]ts/gm__
 
 ![exp4](screenshots/screen4.png)
 
@@ -76,7 +76,7 @@ Another useful pre builts intervals like these :
 | \t       | tab                |
 
 example of using this regex :
- * /m\wts/gm
+ * __/m\wts/gm__
 
 ![exp5](screenshots/screen5.png)
 
@@ -85,11 +85,11 @@ Okay, now the problem is that we want to match __more than just 1 letter__ betwe
 
 little explanation needed here for the following regex:
 
- * /m\wts/gm : this regex will match all the words that starts with __m and finish with ts__, which contain __ONLY ONE__ letter in the interval \w
- * /m\w{2}/gm : this regex will match all the words that starts with __m and finish with ts__, which contain __EXACTLY TWO__ letters in the interval \w, between m and ts
- * /m\w{1,}/gm : this regex will match all the words that starts with __m and finish with ts__, which contain __AT LEAST ONE__ letter in the interval \w, between m and ts
- * /m\w{,3}/gm : this regex will match all the words that starts with __m and finish with ts__, which contain __AT BEST THREE__ letters in the interval \w, between m and ts
- * /m\w{1,3}/gm : this regex will match all the words that starts with __m and finish with ts__, which contain __AT LEAST ONE AND AT BEST THREE__ letters in the interval \w, between m and ts
+ * __/m\wts/gm__ : this regex will match all the words that starts with __m and finish with ts__, which contain __ONLY ONE__ letter in the interval \w
+ * __/m\w{2}/gm__ : this regex will match all the words that starts with __m and finish with ts__, which contain __EXACTLY TWO__ letters in the interval \w, between m and ts
+ * __/m\w{1,}/gm__ : this regex will match all the words that starts with __m and finish with ts__, which contain __AT LEAST ONE__ letter in the interval \w, between m and ts
+ * __/m\w{,3}/gm__ : this regex will match all the words that starts with __m and finish with ts__, which contain __AT BEST THREE__ letters in the interval \w, between m and ts
+ * __/m\w{1,3}/gm__ : this regex will match all the words that starts with __m and finish with ts__, which contain __AT LEAST ONE AND AT BEST THREE__ letters in the interval \w, between m and ts
 
  Quick recap:
 
