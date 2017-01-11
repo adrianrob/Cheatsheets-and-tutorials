@@ -14,10 +14,13 @@ We want to match the lines starting with Bonjour, and ending with revoir, the re
 
   * __/^Bonjour|revoir$/gm__
 
- __/gm__ : g means global text and m means multiple lines
+ __/gm__ : g means global text and m means multiple lines 
+ 
  __^__ : to search X in the start of the line
- __$__ : to search Y in the end of the line
- __|__ : to use multiple statements
+ 
+ __$__ : to search Y in the end of the line 
+ 
+ __|__ : to use multiple statements 
 
 
 look the example below
