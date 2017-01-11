@@ -37,3 +37,24 @@ We can use this regex to do the "opposite" of what we want to match this way :
 this regex means : search all the words that starts with __m__ and ends with __ts__,  by exluding those which contain either __o,a,i__
 
 ![exp3](screenshots/screen3.png)
+
+### 3) Using intervals
+
+We want to search for instance, all the words that starts with __m__ and ends with __ts__ , that contain either __a,b,c... to z__, we'll have to use intervals, this way :
+
+  * /m[a-z]ts/gm
+
+![exp4](screenshots/screen4.png)
+
+Well, there is pre-built intervals in regular expressions defined that way :
+
+[a-z]	[abcdefghijklmonpqrstuvwxyz]	Lettres minuscules de a à z
+[A-Z]	[ABCDEFGHIJKLMNOPQRSTUVWXYZ]	Lettres majuscules de A à Z
+[0-9]	[0123456789]	Chiffres de 0 à 9
+[a-z0-9]	[abcdefghijklmonpqrstuvwxyz0123456789]	Lettres minuscules de a à z ou chiffres de 0 à 9
+
+|:---:|:---:|:---:|
+|[a-z]|[abcdefghijklmonpqrstuvwxyz]|min letters from a to z|
+|[A-Z]|[ABCDEFGHIJKLMNOPQRSTUVWXYZ]|maj letters from a to z|
+|[0-9]|[0123456789]|numbers from 0 to 9|
+|[a-z0-9]|[abcdefghijklmonpqrstuvwxyz0123456789]|min letters from a to z and numbers from 0 to 9|
