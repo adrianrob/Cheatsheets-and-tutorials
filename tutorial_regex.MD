@@ -16,9 +16,9 @@ We want to match the lines starting with Bonjour, and ending with revoir, the re
 
  __/gm__ : g means global text and m means multiple lines 
  
- __^__ : to search X in the start of the line
+ __^__ : to search Bonjour in the start of the line
  
- __$__ : to search Y in the end of the line 
+ __$__ : to search revoir in the end of the line 
  
  __|__ : to use multiple statements 
 
