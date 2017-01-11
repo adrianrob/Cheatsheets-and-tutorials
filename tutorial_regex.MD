@@ -2,6 +2,8 @@
 
 Tool I used to test my regex :
 http://www.regexr.com/
+Here's an other cool site for regex :
+https://regex101.com/
 
 ## 1) Search a word starting by Bonjour and ending by revoir  in multiple lines
 
