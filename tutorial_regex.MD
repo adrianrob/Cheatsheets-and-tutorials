@@ -12,12 +12,12 @@ _Bonjour et au revoir ! Je m'appelle John Doe, j'ai 27 ans, j'habite en France e
 
 We want to match the lines starting with Bonjour, and ending with revoir, the regular expression that we will use is :
 
-  * __/^Bonjour|revoir$/gm____
+  * __/^Bonjour|revoir$/gm__
 
- /gm : g means global text and m means multiple lines__
- ^ : to search X in the start of the line
- $ : to search Y in the end of the line
- | : to use multiple statements
+ __/gm__ : g means global text and m means multiple lines
+ __^__ : to search X in the start of the line
+ __$__ : to search Y in the end of the line
+ __|__ : to use multiple statements
 
 
 look the example below
